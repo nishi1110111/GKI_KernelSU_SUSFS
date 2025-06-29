@@ -93,7 +93,7 @@ jobs:
       actions: write
     needs:
         - get_manager
-        - build-kernel-a13-5-15
+       # - build-kernel-a13-5-15
         - build-kernel-a12-5-10
     if: ${{ inputs.make_release }}
     env:
