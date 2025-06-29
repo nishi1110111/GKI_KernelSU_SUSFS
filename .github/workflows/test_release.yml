@@ -207,7 +207,7 @@ jobs:
           GITLAB_REPO="susfs4ksu"
 
           declare -A BRANCH_MAP=(
-            ["gki_android13_5_15"]="gki-android13-5.15"
+            ["gki_android12_5_10"]="gki-android12-5.10"
           )
 
           for var_name in "${!BRANCH_MAP[@]}"; do
